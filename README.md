@@ -12,7 +12,7 @@ default xml namespace =
 
 ```
 
-It reports 3:28, but should report 2:24.
+It reports 3:28, but should report 3:1.
 
 ## Example
 
