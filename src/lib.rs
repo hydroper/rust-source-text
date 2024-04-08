@@ -53,8 +53,8 @@ impl SourceText {
                 if ch == '\r' && s.peek_or_zero() == '\n' {
                     s.next();
                 }
-                self.push_line_skip(line, s.index());
                 line += 1;
+                self.push_line_skip(line, s.index());
             }
         }
     }
