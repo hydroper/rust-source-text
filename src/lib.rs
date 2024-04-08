@@ -363,5 +363,9 @@ mod tests {
         assert_eq!(2, text.get_line_number(5));
         assert_eq!(5, text.get_line_offset(2).unwrap());
         assert_eq!(5, text.get_line_offset_from_offset(7));
+
+        let text = SourceText::new("\n".repeat(1_024));
+        assert_eq!(2, text.get_line_number(1));
+        assert_eq!(1_025, text.get_line_number(1_024));
     }
 }

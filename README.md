@@ -2,7 +2,7 @@
 
 Library for storing efficient line offset and column from `std::string::String`. It processes lines only once at the first invokation of any of the retrieval methods.
 
-# Example
+## Example
 
 Here is a basic example:
 
