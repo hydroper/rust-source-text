@@ -373,5 +373,7 @@ mod tests {
         let text = SourceText::new("\ndefault xml namespace =\n".into());
         assert_eq!(3, text.get_line_number(25));
         assert_eq!(0, text.get_column(25));
+        assert_eq!(2, text.get_line_number(24));
+        assert_eq!(23, text.get_column(24));
     }
 }
