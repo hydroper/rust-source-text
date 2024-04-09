@@ -2,18 +2,6 @@
 
 Library for storing efficient line offset and column from `std::string::String`. It processes lines only once at the first invokation of any of the retrieval methods.
 
-## Bugs
-
-It looks to be failling when retrieving the end column of the second line of:
-
-```
-
-default xml namespace =
-
-```
-
-It reports 3:28, but should report 3:1.
-
 ## Example
 
 Here is a basic example:

@@ -1,6 +1,6 @@
 [package]
 name = "hydroper_source_text"
-version = "1.0.1"
+version = "1.0.3"
 edition = "2021"
 authors = ["hydroper <matheusdiasdesouzads@gmail.com>"]
 repository = "https://github.com/hydroper/rust-source-text"
